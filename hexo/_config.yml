@@ -6,7 +6,7 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
+author: ouyangtao
 language:
 timezone:
 
@@ -72,13 +72,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
-
-type: git
-repository: https://github.com/ouyangtao404/ouyangtao404.github.io.git
-branch: master
+deploy: 
+  type: git
+  repo: git@github.com:ouyangtao404/ouyangtao404.github.io.git
+  branch: master
